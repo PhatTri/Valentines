@@ -38,3 +38,19 @@ button:hover {
     font-family: 'Pacifico', cursive; /* The "cute" font */
     font-size: 30px; /* Adjust size as needed */
 }
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    #yesButton, #noButton {
+        font-size: 18px; /* Larger font for easier interaction */
+        padding: 12px 24px; /* Larger padding for a bigger tap area */
+    }
+
+    #yesGif {
+        width: 100%; /* Make the GIF take the full container width */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
